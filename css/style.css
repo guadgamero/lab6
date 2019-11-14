@@ -4,7 +4,11 @@
   overflow: hidden;
 }
 #navbar-container {
-  
+
+}
+#navbar-container ul li a{
+  color: #fff;
+  text-decoration: none;
 }
 #onpage {
   text-decoration: underline overline;
@@ -19,7 +23,6 @@
 
 #sidebar {
   background-color: red;
-  display: block;
   height: 100%;
   position: fixed;
   right:0%;
@@ -38,7 +41,8 @@
 
 #sidebar-container ul li a{
   color: #fff;
-  text-decoration: none;
+  display: block; 
+  text-decoration: none; 
 }
 
 #sidebar-container ul li a:hover {
