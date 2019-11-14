@@ -19,9 +19,9 @@
 
 #sidebar {
   background-color: red;
+  height: 100%;
   position: fixed;
   right:0%;
-  height: 100%;
   width: 20%;
 }
 #sidebar-container {
@@ -30,5 +30,12 @@
 
 #sidebar-container ul {
   list-style-type: none;
+}
+
+#sidebar-container ul li {
   color: #fff;
+}
+
+#sidebar-container ul li a:hover {
+  background-color: #000;
 }
