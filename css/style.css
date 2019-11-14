@@ -9,10 +9,11 @@
 }
 #navbar-container ul {
   float: left; 
+  left: 50%; 
   list-style-type: none; 
-  position: relative;
   margin: 0; 
   padding: 0;
+  position: relative;
 }
 #navbar-container ul li {
   float: left; 
