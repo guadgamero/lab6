@@ -4,7 +4,12 @@
   overflow: hidden;
 }
 #navbar-container {
-
+  list-style-type: none; 
+  position: relative; 
+  width: 100%;
+}
+#navbar-container ul {
+  list-style-type: none; 
 }
 #navbar-container ul li a{
   color: #fff;
@@ -13,9 +18,9 @@
 #onpage {
   text-decoration: underline overline;
 }
-
-
-
+#navbar-container ul li a:hover {
+  background-color: #000;
+}
 
 
 
