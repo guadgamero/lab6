@@ -4,6 +4,7 @@
   overflow: hidden;
 }
 #navbar-container {
+  float: left;
   position: relative; 
   width: 100%;
 }
@@ -16,6 +17,7 @@
   position: relative;
 }
 #navbar-container ul li {
+  display: block;
   float: left; 
   padding: 10px 20px;
   position: relative; 
@@ -23,6 +25,7 @@
 }
 #navbar-container ul li a{
   color: #fff;
+  display: block;
   text-decoration: none;
 }
 #onpage {
