@@ -17,6 +17,7 @@
 }
 #navbar-container ul li {
   float: left; 
+  padding: 10px 20px;
   position: relative; 
   right: 50%;
 }
