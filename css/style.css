@@ -19,6 +19,7 @@
 
 #sidebar {
   background-color: red;
+  display: block;
   height: 100%;
   position: fixed;
   right:0%;
@@ -30,7 +31,13 @@
 
 #sidebar-container ul {
   list-style-type: none;
+  padding: 0;
+  text-align: center;
 }
+
+#sidebar-container ul li{
+  padding: 15px 0;  
+}  
 
 #sidebar-container ul li a{
   color: #fff;
