@@ -4,16 +4,20 @@
   overflow: hidden;
 }
 #navbar-container {
-  list-style-type: none; 
   position: relative; 
   width: 100%;
 }
 #navbar-container ul {
+  float: left; 
   list-style-type: none; 
   position: relative;
+  margin: 0; 
+  padding: 0;
 }
 #navbar-container ul li {
   float: left; 
+  position: relative; 
+  right: 50%;
 }
 #navbar-container ul li a{
   color: #fff;
