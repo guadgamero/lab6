@@ -18,8 +18,17 @@
 
 
 #sidebar {
-  
+  background-color: red;
+  position: fixed;
+  right:0%;
+  height: 100%;
+  width: 20%;
 }
 #sidebar-container {
-  
+  text-decoration: none;
+}
+
+#sidebar-container ul {
+  list-style-type: none;
+  color: #fff;
 }
