@@ -10,6 +10,10 @@
 }
 #navbar-container ul {
   list-style-type: none; 
+  position: relative;
+}
+#navbar-container ul li {
+  float: left; 
 }
 #navbar-container ul li a{
   color: #fff;
